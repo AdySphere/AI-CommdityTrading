@@ -10,6 +10,6 @@ _(none yet — first run pending)_
 
 ## Findings
 
-| Organization | Segment | Signal found (source) | Pitch category | Proposed agent concept | Suggested outreach line | Status |
+| Organization | Segment & sector | Signal found (source) | Pitch category | Proposed agent concept | Suggested outreach line | Status |
 |---|---|---|---|---|---|---|
 | _(no entries yet — first run pending)_ | | | | | | |
