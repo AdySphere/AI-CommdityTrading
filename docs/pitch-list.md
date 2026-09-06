@@ -2,14 +2,18 @@
 
 Running list maintained by the weekly pitch-agent (see `pitch-agent-prompt.md`). Updated in place each Monday — prior entries are kept and only their Status column changes. Entries with no movement in 4+ weeks should be flagged as stale for review/drop.
 
-_Last updated: not yet run._
+_Last updated: 2026-09-06 (initial run)._
 
 ## Market/regulatory triggers this week
 
-_(none yet — first run pending)_
+GCC aluminium is in an active squeeze: Al Taweelah (EGA) and Aluminium Bahrain were both forced offline by regional conflict disruption and Strait of Hormuz export friction; LME aluminium is forecast near $3,800/t in Q3 2026, and copper is near record highs on the Grasberg outage. Separately, DGCX launched the region's first same-day-settlement Gold Spot T+0 futures contract this week — a concrete push toward faster settlement cycles that bullion dealers, refiners, and brokers will need to adapt operationally for. Both are live hedging-urgency openings even without a locked-in target yet.
 
 ## Findings
 
 | Organization | Segment & sector | Signal found (source) | Pitch category | Proposed agent concept | Suggested outreach line | Status |
 |---|---|---|---|---|---|---|
-| _(no entries yet — first run pending)_ | | | | | | |
+| Emirates Global Aluminium (EGA) | Manufacturer — metals & mining (aluminium smelting), UAE | Mid-implementation of SAP S/4HANA (RISE with SAP on Azure private cloud) as the next phase of its digital transformation, layered on an existing Azure/AI manufacturing platform ([AL Circle](https://www.alcircle.com/blog/case-study-ega-leading-the-aluminium-industry-with-ai-powered-transformation), [Microsoft Customer Stories](https://www.microsoft.com/en/customers/story/1777264680029793974-ega-azure-arc-discrete-manufacturing-en-united-arab-emirates)) | 6 (gap-filler around new ERP) | Gap-filler agent for EGA's S/4HANA rollout: contract-obligation monitoring + supplier-risk intelligence on bauxite/alumina procurement | "We built exactly this class of gap-filler agent — contract monitoring, supplier-risk, procurement helpdesk — for Indorama alongside their SAP + AI-procurement stack. EGA's S/4HANA migration is the same inflection point." | new this week |
+| Almarai | Manufacturer — agri/food (dairy, poultry), Saudi Arabia | Announced the "next phase" of its SAP digital transformation (RISE with SAP on Google Cloud) as part of an 18B SAR five-year investment plan, working with McKinsey ([GDN](https://www.gdnonline.com/Details/874568/Almarai-announces-next-phase-of-digital-transformation-with-SAP), [Consultancy-me](https://www.consultancy-me.com/news/3200/almarai-working-with-mckinsey-and-sap-on-digital-transformation)) | 6 (gap-filler around new ERP) | Gap-filler agent for Almarai's SAP RISE rollout: feedstock (grain/feed) price-timing intelligence + procure-to-pay automation | "This is the same gap Ady closed for Indorama around their SAP rollout — price-timing intelligence and last-mile P2P automation sitting on top of, not replacing, the new stack." | new this week |
+| ADNOC Global Trading | Trading house/broker desk — oil & gas, UAE | Leased ~160,000 m³ of fuel-oil storage at Jurong Port, Singapore to grow Asia trade volumes; LinkedIn data shows ADNOC group headcount up 13% this year (>40,000) — expansion signal, not yet confirmed as an ops/tooling gap ([S&P Global](https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/093020-uaes-adnoc-starts-crude-trading-another-unit-due-to-start-soon)) | 1 (trade-lifecycle automation) | Trade-lifecycle automation agent scaled to ADNOC Global Trading's Asia-desk expansion — quotation/allocation/settlement workflow for the new volume | "Ady built a full enquiry-to-settlement CTRM platform for Kenobi/Veridian. ADNOC Global Trading's Asia volume expansion is exactly the scaling moment that breaks manual trade-ops." | new this week — weaker signal, verify desk-level detail before outreach |
+
+_Note: this initial run was a manual test fire (2026-09-06, a Sunday) to validate the pipeline ahead of the first scheduled Monday 8am GST run._
